@@ -4,8 +4,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: rgb(19,66,3);
-  background: linear-gradient(135deg, rgba(19,66,3,1) 0%, rgba(67,198,55,0.9598433123249299) 47%, rgba(75,179,73,1) 100%);
+  background: rgb(0,36,4);
+  background: linear-gradient(90deg, rgba(0,36,4,1) 0%, rgba(28,162,5,1) 49%, rgba(4,99,16,1) 100%);
 }
 
 a {
