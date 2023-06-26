@@ -616,6 +616,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .content {
+  color: #e3e8e9;
+}
 .about .content h2 {
   font-weight: 700;
   font-size: 48px;
@@ -628,6 +631,7 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
+  color: #e3e8e9;
 }
 
 .about .content ul {
