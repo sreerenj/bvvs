@@ -5,7 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background: rgb(0,36,4);
-  background: linear-gradient(90deg, rgba(0,36,4,1) 0%, rgba(28,162,5,1) 49%, rgba(4,99,16,1) 100%);
+  background: linear-gradient(90deg, rgba(0,36,4,1) 0%, rgba(21,97,8,1) 49%, rgba(159,111,18,1) 100%);
 }
 
 a {
@@ -66,7 +66,7 @@ h6 {
 #topbar {
   /* background: #fff; */
   background: rgb(19,66,3);
-  background: linear-gradient(135deg, rgba(19,66,3,1) 0%, rgba(67,198,55,0.9598433123249299) 47%, rgba(75,179,73,1) 100%);
+  background: linear-gradient(135deg, rgba(19,66,3,1) 0%, rgba(21,97,8,1) 49%, rgba(159,111,18,1) 100%);
   border-bottom: 1px solid #eee;
   font-size: 14px;
   height: 44px;
@@ -135,7 +135,7 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 22px;
   margin: 0;
   line-height: 1;
   font-weight: 700;
@@ -154,7 +154,8 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
+  float: left;
+  padding-right: 10px;
   margin: 0;
   max-height: 40px;
 }
