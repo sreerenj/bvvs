@@ -221,9 +221,9 @@ for (i = 0; i < dropdown.length; i++) {
   });
 
   /**
-   * Portfolio details slider
+   * Product details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.product-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -261,3 +261,34 @@ for (i = 0; i < dropdown.length; i++) {
   new PureCounter();
 
 })()
+
+/**
+ * Show or hide the medicine details 
+ */
+function showDetails(medicineId) {
+  // Hide all content divs
+  var contents = document.querySelectorAll('.product-content');
+  contents.forEach(function(content) {
+      content.style.display = 'none';
+  });
+
+  // Show the selected content div
+  var selectedContent = document.getElementById(medicineId);
+  if (selectedContent) {
+      selectedContent.style.display = 'block';
+  }
+}
+
+// function showContent(contentId) {
+//   // Hide all content divs
+//   var contents = document.querySelectorAll('.content');
+//   contents.forEach(function(content) {
+//       content.style.display = 'none';
+//   });
+
+//   // Show the selected content div
+//   var selectedContent = document.getElementById(contentId);
+//   if (selectedContent) {
+//       selectedContent.style.display = 'block';
+//   }
+// }
