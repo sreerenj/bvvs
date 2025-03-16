@@ -637,6 +637,9 @@ section{
   padding: 60px 0;
 }
 
+.section.product{
+  padding: 20px 0;
+}
 .section-bg {
   background-color: #f2fdff;
 }
@@ -1633,4 +1636,8 @@ section{
 }
 .product-content {
   display: none;
+}
+
+img.portrait{
+  height: 500px;
 }
