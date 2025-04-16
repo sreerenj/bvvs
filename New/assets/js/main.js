@@ -278,7 +278,22 @@ function showDetails(medicineId) {
       selectedContent.style.display = 'block';
   }
 }
+//Sreerenj TODO
+function showProductDetails(product){
+  var product = document.getElementById(product);
+  product.style.display = "block";
 
+  var closeSpan = product.getElementsByClassName("close")[0];
+  closeSpan.onclick = function(){
+    product.style.display = "none";
+  }
+  
+  window.onclick = function(event) {
+    if (event.target == product) {
+        product.style.display = "none";
+    }
+}
+}
 // function showContent(contentId) {
 //   // Hide all content divs
 //   var contents = document.querySelectorAll('.content');

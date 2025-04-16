@@ -81,7 +81,7 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1">
-            <div class="polaroid">
+            <div class="polaroid" onclick="showProductDetails('Artholax')">
               <img src="assets/img/products/artholax1.jpeg" alt="Artholax oil" class="product" data-category="Patented" data-type="Oil">
               <div class="product">
                 <p>Artholax Oil</p>
@@ -146,9 +146,10 @@
    
    </section>
    <section id="product-details" class="product-details">
-    <div class="container product-content" id="Artholax">
-
-      <div class="row gy-4">
+    <div class="product-modal" id="Artholax">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="row gy-4">
 
         <div class="col-lg-8">
           <div class="product-details-slider swiper">
@@ -182,7 +183,7 @@
               ARTHOLAX Oil contains unique natural herbs with superb pain relief properties carefully chosen and processed with their aqueous herbal extracts and blended with natural essential oils to provide that excellent perfect relief.
             </p>
 
-            <h3>Benefits</h3>
+            <h2>Benefits</h2>
             <ul>
               <li>
                 Quick Relief from joint pains
@@ -193,7 +194,7 @@
         </div>
 
       </div>
-
+    </div>
     </div>
   </section><!-- End Portfolio Details Section -->
   <!-- <main id="main">
